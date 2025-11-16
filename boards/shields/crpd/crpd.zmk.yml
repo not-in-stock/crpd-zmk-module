@@ -1,0 +1,11 @@
+file_format: "1"
+id: crpd
+name: CRPD
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - crpd_left
+  - crpd_right
