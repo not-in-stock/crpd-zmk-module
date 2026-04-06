@@ -9,23 +9,23 @@
 # shield: [ "corne_left", "corne_right" ]
 include:
 # dongle custom corne
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble/nrf52840/zmk
     shield: crpd_dongle prospector_adapter
     artifact-name: corne_dongle
 # custom corne
-  - board: nice_nano_v2
+  - board: nice_nano/nrf52840/zmk
     shield: crpd_central_left nice_view_adapter nice_view
     artifact-name: corne_central_left
-  - board: nice_nano_v2
+  - board: nice_nano/nrf52840/zmk
     shield: crpd_left nice_view_adapter nice_view
     artifact-name: corne_left
-  - board: nice_nano_v2
+  - board: nice_nano/nrf52840/zmk
     shield: crpd_right nice_view_adapter nice_view
     artifact-name: corne_right
 # reset settings
-  - board: nice_nano_v2
+  - board: nice_nano/nrf52840/zmk
     shield: settings_reset
     artifact-name: nice_nano_rest
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble/nrf52840/zmk
     shield: settings_reset
-    artifact-name: xioa_rest
+    artifact-name: xiao_rest
